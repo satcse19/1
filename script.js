@@ -9,3 +9,13 @@ $(document).ready(function () {
     $(".ers").show();
   });
 });
+
+$(document).ready(function () {
+  $(".hd").hide();
+});
+
+$(document).ready(function () {
+  $(".bt1").click(function () {
+    $(".hd").show();
+  });
+});
